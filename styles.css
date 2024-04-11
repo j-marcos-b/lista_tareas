@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-image: url(/img/wall-1846965_1280.jpg);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.item {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+button {
+  width: 70px;
+  background-color: #0051ff;;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  width: 70px;
+  background-color: #0051ff;;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#taskList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px
+}
+
+.delete-btn {
+  margin-left: 10px; /* Espacio entre el texto de la tarea y el botón de eliminar */
+}
