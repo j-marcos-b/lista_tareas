@@ -16,7 +16,6 @@ addTaskBtn.addEventListener('click', () => {
 
     li.appendChild(deleteBtn);
     taskList.appendChild(li);
-    
 
     taskInput.value = '';
 
